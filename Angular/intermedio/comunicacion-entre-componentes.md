@@ -2,7 +2,7 @@
 
 En Angular, los componentes son unidades independientes que pueden comunicarse entre sí para compartir datos o eventos. La comunicación entre componentes depende de su relación jerárquica (padre-hijo, hijo-padre, componentes hermanos o no relacionados). A continuación, se explican los métodos más comunes para lograr esta comunicación:
 
-1. Comunicación de Padre a Hijo:
+## 1. Comunicación de Padre a Hijo:
 
 Utiliza decoradores de entrada (@Input) para pasar datos desde un componente padre a uno hijo.
 
@@ -34,7 +34,7 @@ export class ChildComponent {
 }
 ```
 
-2. Comunicación de Hijo a Padre:
+## 2. Comunicación de Hijo a Padre:
 
 Utiliza decoradores de salida (@Output) y un EventEmitter para enviar datos o eventos desde el hijo al padre.
 
@@ -75,7 +75,7 @@ export class ParentComponent {
 }
 ```
 
-3. Comunicación entre Componentes Hermanos:
+## 3. Comunicación entre Componentes Hermanos:
 
 Los componentes hermanos no tienen una relación jerárquica directa. Para comunicarse, suelen compartir un servicio que actúa como intermediario. En el siguiente ejemplo usamos un servicio que es una instancia unica en el proyecto y enviamos la informacion a travez de un subject
 
@@ -138,6 +138,6 @@ export class Sibling2Component implements OnInit {
 }
 ```
 
-4. Comunicación entre Componentes No Relacionados:
+## 4. Comunicación entre Componentes No Relacionados:
 
 Utiliza un servicio global similar al caso anterior o un Event Bus. Otra opción es usar State Management con bibliotecas como NgRx o Akita.

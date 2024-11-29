@@ -21,7 +21,7 @@ Este repositorio contiene una lista de preguntas sobre Angular, organizadas en t
 
 ## Intermedio
 
-1. [¿Cómo implementar la comunicación entre componentes?](Angular/intermedio/comunicacion-componentes.md)
+1. [¿Cómo implementar la comunicación entre componentes?](Angular/intermedio/comunicacion-entre-componentes.md)
 2. [¿Qué es la inyección de dependencias (DI) en Angular?](Angular/intermedio/inyeccion-dependencias.md)
 3. [Explica el concepto de lazy loading en Angular.](Angular/intermedio/lazy-loading.md)
 4. [¿Qué son los guards en Angular y cómo se configuran?](Angular/intermedio/guards.md)
@@ -36,7 +36,7 @@ Este repositorio contiene una lista de preguntas sobre Angular, organizadas en t
 
 ## Avanzado
 
-1. [¿Cómo implementar un State Management en Angular? Compara NgRx y otros enfoques.](Angular/avanzado/state-management.md)
+1. [¿Cómo implementar un State Management en Angular? implementacion basica NgRx.](Angular/avanzado/state-management.md)
 2. [¿Cómo configurar una aplicación Angular para producción?](Angular/avanzado/configuracion-produccion.md)
 3. [¿Cómo funcionan los módulos compartidos y el tree-shaking?](Angular/avanzado/modulos-compartidos.md)
 4. [¿Qué es el Renderer2 en Angular y cuándo lo usarías?](Angular/avanzado/renderer2.md)
@@ -46,6 +46,7 @@ Este repositorio contiene una lista de preguntas sobre Angular, organizadas en t
 8. [¿Qué es una arquitectura modular en Angular y cómo implementarla?](Angular/avanzado/arquitectura-modular.md)
 9. [¿Qué son los custom elements y cómo usar Angular para crearlos?](Angular/avanzado/custom-elements.md)
 10. [¿Cómo configurar y manejar internacionalización (i18n) en Angular?](Angular/avanzado/internacionalizacion.md)
+11. [Diferencia entre promesas y observables](Angular/avanzado/promesa-y-observable.md)
 
 ---
 
