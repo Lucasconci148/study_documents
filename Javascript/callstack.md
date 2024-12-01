@@ -50,4 +50,12 @@ En el ejemplo anterior, tenemos un error dentro de la funcion2. Esto va a desenc
 
 ## Registro que se incluye a la pila
 
-## Funcionamiento de la pila de ejecucion con asincronismo
+Cada registro añadido a la pila de ejecución contiene:
+
+Entorno de variables locales (parámetros, variables locales).
+Scope Chain (referencias a variables externas).
+this (contexto del objeto).
+Puntero de ejecución (para seguir la instrucción actual).
+Información de la llamada previa (para volver al contexto anterior).
+
+Esto asegura que JavaScript pueda gestionar de forma eficiente la ejecución de funciones, incluso en casos complejos como funciones anidadas o recursivas.
