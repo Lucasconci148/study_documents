@@ -1,0 +1,1 @@
+Los patrones de diseño son soluciones reutilizables a problemas comunes en el desarrollo de software. En JavaScript, debido a su flexibilidad, podemos implementar varios patrones de diseño orientados a objetos, estructurales, y de comportamiento. A continuación, se describen los patrones más comunes con ejemplos en JavaScript.
